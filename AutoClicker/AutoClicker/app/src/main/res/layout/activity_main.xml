@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ステータス: 未設定"
+        android:textSize="16sp"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnOpenAccessibility"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. アクセシビリティ設定を開く" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="設定内で「オートクリッカー」を探しON にしてください"
+        android:textSize="12sp"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnOpenOverlaySettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. オーバーレイ表示の確認" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="アクセシビリティサービスをONにすると、フローティングボタンが画面に表示されます"
+        android:textSize="12sp" />
+
+</LinearLayout>
