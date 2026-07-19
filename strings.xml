@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">オートクリッカー</string>
+    <string name="accessibility_service_description">画面上の指定した位置を自動的にタップするためのサービスです。この権限は自動タップの実行のみに使用され、画面内容の読み取りは行いません。</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/panel_background"
+    android:padding="10dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/dragHandle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="⠿ ドラッグで移動"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp"
+        android:padding="4dp" />
+
+    <TextView
+        android:id="@+id/tvInterval"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="間隔: 1000 ms (タップで変更)"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:padding="6dp" />
+
+    <Button
+        android:id="@+id/btnToggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="開始" />
+
+    <Button
+        android:id="@+id/btnStopService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="終了" />
+
+</LinearLayout>
